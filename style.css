@@ -478,6 +478,14 @@ section .title::after{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
 }
 
 
@@ -578,12 +586,11 @@ section .title::after{
          width:  calc(50% - 10px);
          margin-bottom: 20px;
     }
-    .skills .skills-content .column {
+    .skills .skills-content .column,
+    .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
-
-    }
-    
+    }    
 }
 
     
@@ -609,8 +616,7 @@ section .title::after{
    }
 }
 
-@media (max-width: 500px){  
-    
+@media (max-width: 500px){      
     .home .home-content .text-2 {
         font-size: 50px;      
     }   
