@@ -23,4 +23,12 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass('active');
 
     });
+
+    //typing animation script
+    var typed = new Typed('.typing', {
+        strings: ["Desenvolvedor Web", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
 })
